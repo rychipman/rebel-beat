@@ -10,8 +10,16 @@ introSolo = {
   r1 | r1 | r1 | r1 |
 }
 
+introSoloLyrics = \lyricmode {
+
+}
+
 introComp = {
   r1 | r1 | r1 | r1 |
+}
+
+introCompLyrics = \lyricmode {
+
 }
 
 pianoRiff = \relative c'' {
@@ -23,11 +31,22 @@ pianoRiff = \relative c'' {
 
 introRat = \pianoRiff
 
+introRatLyrics = \lyricmode {
+  ben de den de den den
+  ben de den de den den
+  ben de den de den den
+  ben de den de den den
+}
+
 introTenor = \relative c' {
   r1 |
   r1 |
   d2. d4 |
   f1 |
+}
+
+introTenorLyrics = \lyricmode {
+  doh do -- ohh
 }
 
 introLead = \relative c {
@@ -37,6 +56,13 @@ introLead = \relative c {
   bes16 bes8 bes16 bes8 bes16 bes~ bes bes bes8~ bes16 bes bes bes |
 }
 
+introLeadLyrics = \lyricmode {
+  de den de den de den den den
+  de den de den de den den den
+  de den de den de den den den
+  de den de den de den den de de de
+}
+
 introBari = \relative c {
   r1 |
   f1 |
@@ -44,8 +70,18 @@ introBari = \relative c {
   f4 f4 f4 f4 |
 }
 
+introBariLyrics = \lyricmode {
+  doh
+  dn dn dn dn
+  dn dn dn dn
+}
+
 introBass = {
   r1 | r1 | r1 | r1 |
+}
+
+introBassLyrics = \lyricmode {
+
 }
 
 verseOneSolo = \relative c' {
@@ -67,6 +103,12 @@ verseOneSolo = \relative c' {
   % hold you up when it's hard to deal a-li-
 }
 
+verseOneSoloLyrics = \lyricmode {
+ we keep head -- in' in the same di -- rec -- tion
+ you've be -- come my own re -- flec -- tion
+ is that your soul that you're try'n to pro --tect
+}
+
 verseOneComp = \relative c { % sing in cluster without mic for now
   r8 f16 f f f f f f8 f16 f~ f f8. |
   % We keep head-in' in the same di-rec-tion
@@ -86,6 +128,10 @@ verseOneComp = \relative c { % sing in cluster without mic for now
   % hold you up when it's hard to deal
 }
 
+verseOneCompLyrics = \lyricmode {
+  
+}
+
 verseOneRat = \relative c'' {
   r4 c8 a16 c~ c a g8~ g a |
   r4 c8 a16 c~ c a g8~ g a |
@@ -95,6 +141,10 @@ verseOneRat = \relative c'' {
   r4 c8 a16 c~ c a g8~ g a |
   r4 c8 a16 c~ c a g8~ g a |
   r4 c8 a16 c~ c a g8~ g f |
+}
+
+verseOneRatLyrics = \lyricmode {
+  
 }
 
 % TODO this is too high
@@ -109,6 +159,10 @@ verseOneTenor = \relative c'' { % very light falsetto
   bes1 |
 }
 
+verseOneTenorLyrics = \lyricmode {
+  
+}
+
 verseOneLead = \relative c' { % a b a b
   r8 a16 a a r8. r16 a a a a a r8 |
   r8 bes16 bes bes r8. r16 bes bes bes bes a r8 | % change this one on 2nd iter?
@@ -118,6 +172,10 @@ verseOneLead = \relative c' { % a b a b
   r8 bes16 bes bes r8. r16 bes bes bes bes a r8 | % change this one on 2nd iter?
   r8 a16 a a r8. r16 a a a a a r8 |
   r8 bes16 bes bes r8. r16 bes bes bes bes bes r8 |
+}
+
+verseOneLeadLyrics = \lyricmode {
+  
 }
 
 verseOneBari = \relative c, { % sing this light like baris, not basses
@@ -131,9 +189,17 @@ verseOneBari = \relative c, { % sing this light like baris, not basses
   bes16 bes8 bes16 bes8 bes16 bes~ bes bes bes8~ bes16 bes bes bes |
 }
 
+verseOneBariLyrics = \lyricmode {
+  
+}
+
 verseOneBass = {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+}
+
+verseOneBassLyrics = \lyricmode {
+  
 }
 
 preChorusSolo = \relative c' {
@@ -149,12 +215,24 @@ preChorusSolo = \relative c' {
   % I need to be where you are
 }
 
+preChorusSoloLyrics = \lyricmode {
+  
+}
+
 preChorusComp = {
   r1 | r1 | r1 | r1 | r1 |
 }
 
+preChorusCompLyrics = \lyricmode {
+  
+}
+
 preChorusRat = {
   r1 | r1 | r1 | r1 | r1 |
+}
+
+preChorusRatLyrics = \lyricmode {
+  
 }
 
 preChorushighbell = \relative c' {
@@ -181,6 +259,10 @@ preChorusTenor = \relative c'' {
   r1 |
 }
 
+preChorusTenorLyrics = \lyricmode {
+  
+}
+
 preChorusLead = \relative c' {
   % TODO put something here
   r1 |
@@ -188,6 +270,10 @@ preChorusLead = \relative c' {
   r1 |
   r1 |
   r1 |
+}
+
+preChorusLeadLyrics = \lyricmode {
+  
 }
 
 preChorusBari = \relative c { % hum
@@ -198,12 +284,20 @@ preChorusBari = \relative c { % hum
   g g g8 r r4 |
 }
 
+preChorusBariLyrics = \lyricmode {
+  
+}
+
 preChorusBass = \relative c {
   d8 d~ d4~ d16 d d8~ d16 d8. |
   c8 c~ c4~ c16 c c8~ c16 c8. |
   bes8 bes~ bes4~ bes16 bes bes8~ bes16 bes8. |
   c4 c c c |
   c4 c c8 \noBeam \glissando \hideNotes c, \unHideNotes r4 |
+}
+
+preChorusBassLyrics = \lyricmode {
+  
 }
 
 chorusSolo = \relative c' {
@@ -225,9 +319,17 @@ chorusSolo = \relative c' {
   % -e ... 'cause this is all I need
 }
 
+chorusSoloLyrics = \lyricmode {
+  
+}
+
 chorusComp = { % TODO: add this
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+}
+
+chorusCompLyrics = \lyricmode {
+  
 }
 
 chorusRat = \relative c'' {
@@ -241,15 +343,23 @@ chorusRat = \relative c'' {
   r1 |
 }
 
+chorusRatLyrics = \lyricmode {
+  
+}
+
 chorusTenor = \relative c' {
   f2  f16 f8 f16~  f c8 f16 |
-  d4 f d f~  f4  bes8. a16~  a8 g|
+  d16 f d f~  f4  bes8. a16~  a8 g|
   f2  g8. a16  r8 bes~ |
   bes8 a  g f  g a  g f |
   r1 |
   r1 |
    |
   r1 |
+}
+
+chorusTenorLyrics = \lyricmode {
+  
 }
 
 chorusLead = \relative c' {
@@ -266,6 +376,10 @@ chorusLead = \relative c' {
   d2  r |
 }
 
+chorusLeadLyrics = \lyricmode {
+  
+}
+
 chorusBari = \relative c {
   c'4 c8 r8 r2 |
   r1 |
@@ -275,6 +389,10 @@ chorusBari = \relative c {
   r1 |
   f,8. a16~  a8 f8  f8. a16~  a8 bes~ | % words
   bes2  r |
+}
+
+chorusBariLyrics = \lyricmode {
+  
 }
 
 verseTwoSolo = \relative c' {
@@ -298,6 +416,10 @@ verseTwoSolo = \relative c' {
   % burn that fire or we'll just burn out a li-
 }
 
+verseTwoSoloLyrics = \lyricmode {
+  
+}
+
 verseTwoComp = {
   r1 | r1 |
   r1 | r1 | r1 | r1 |
@@ -306,12 +428,20 @@ verseTwoComp = {
   r1 | r1 | r1 | r1 |
 }
 
-verseTwoRat {
+verseTwoCompLyrics = \lyricmode {
+  
+}
+
+verseTwoRat = {
   r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+}
+
+verseTwoRatLyrics = \lyricmode {
+  
 }
 
 verseTwoTenor = {
@@ -322,12 +452,20 @@ verseTwoTenor = {
   r1 | r1 | r1 | r1 |
 }
 
+verseTwoTenorLyrics = \lyricmode {
+  
+}
+
 verseTwoLead = {
   r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+}
+
+verseTwoLeadLyrics = \lyricmode {
+  
 }
 
 verseTwoBari = {
@@ -338,12 +476,20 @@ verseTwoBari = {
   r1 | r1 | r1 | r1 |
 }
 
+verseTwoBariLyrics = \lyricmode {
+  
+}
+
 verseTwoBass = {
   r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+}
+
+verseTwoBassLyrics = \lyricmode {
+  
 }
 
 chorusBass = \relative c, {
@@ -356,6 +502,10 @@ chorusBass = \relative c, {
   bes4  bes8 r  r16 bes bes c~  c c8 c16 |
   d8 d  a d  c c g c |
   bes8. bes16~  bes bes bes bes  bes bes8 c16~  c c c c |
+}
+
+chorusBassLyrics = \lyricmode {
+  
 }
 
 bridgeSolo = \relative c {
@@ -374,8 +524,12 @@ bridgeSolo = \relative c {
   % feel the sound that's ev-ryw-here
   r8. f16  c' a8 a16~  a8 g16 f~  f8 f |
   % we'll take what's ours for once and
-  bes8 a  a4  f'8 f~  f f~ |
+  bes8 a  a4  f'8 f~  f f | % TODO tie here
   % ba-y-by run like he-e-ell
+}
+
+bridgeSoloLyrics = \lyricmode {
+  
 }
 
 bridgeComp = {
@@ -383,9 +537,17 @@ bridgeComp = {
   r1 | r1 | r1 | r1 |
 }
 
+bridgeCompLyrics = \lyricmode {
+  
+}
+
 bridgeRat = {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+}
+
+bridgeRatLyrics = \lyricmode {
+  
 }
 
 bridgeHigh = {
@@ -393,9 +555,17 @@ bridgeHigh = {
   r1 | r1 | r1 | r1 |
 }
 
+bridgeHighLyrics = \lyricmode {
+  
+}
+
 bridgeTenor = {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+}
+
+bridgeTenorLyrics = \lyricmode {
+  
 }
 
 bridgeLead = {
@@ -403,14 +573,170 @@ bridgeLead = {
   r1 | r1 | r1 | r1 |
 }
 
+bridgeLeadLyrics = \lyricmode {
+  
+}
+
 bridgeBari = {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
 }
 
+bridgeBariLyrics = \lyricmode {
+  
+}
+
 bridgeBass = {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+}
+
+bridgeBassLyrics = \lyricmode {
+  
+}
+
+doubleChorusSolo = \relative c {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+doubleChorusSoloLyrics = \lyricmode {
+  
+}
+
+doubleChorusComp = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+doubleChorusCompLyrics = \lyricmode {
+  
+}
+
+doubleChorusRat = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+doubleChorusRatLyrics = \lyricmode {
+  
+}
+
+doubleChorusHigh = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+doubleChorusHighLyrics = \lyricmode {
+  
+}
+
+doubleChorusTenor = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+doubleChorusTenorLyrics = \lyricmode {
+  
+}
+
+doubleChorusLead = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+doubleChorusLeadLyrics = \lyricmode {
+  
+}
+
+doubleChorusBari = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+doubleChorusBariLyrics = \lyricmode {
+  
+}
+
+doubleChorusBass = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+doubleChorusBassLyrics = \lyricmode {
+  
+}
+
+outroSolo = \relative c {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+outroSoloLyrics = \lyricmode {
+  
+}
+
+outroComp = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+outroCompLyrics = \lyricmode {
+  
+}
+
+outroRat = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+outroRatLyrics = \lyricmode {
+  
+}
+
+outroHigh = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+outroHighLyrics = \lyricmode {
+  
+}
+
+outroTenor = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+outroTenorLyrics = \lyricmode {
+  
+}
+
+outroLead = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+outroLeadLyrics = \lyricmode {
+  
+}
+
+outroBari = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+outroBariLyrics = \lyricmode {
+  
+}
+
+outroBass = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+}
+
+outroBassLyrics = \lyricmode {
+  
 }
 
 \score {
@@ -423,14 +749,30 @@ bridgeBass = {
       \set Staff.midiInstrument = #"acoustic grand"
       \set Staff.midiMaximumVolume = 0.4
       \clef "treble_8"
-      %\introSolo
-      %\verseOneSolo
-      \preChorusSolo
-      \chorusSolo
-      %\verseTwoSolo
-      %\preChorusSolo
-      %\chorusSolo
-      %\bridgeSolo
+      \new Voice = "Neil" {
+        \introSolo
+        \verseOneSolo
+        \preChorusSolo
+        \chorusSolo
+        \verseTwoSolo
+        \preChorusSolo
+        \chorusSolo
+        \bridgeSolo
+        \doubleChorusSolo
+        \outroSolo
+      }
+    }
+    \new Lyrics \lyricsto "Neil" {
+        \introSoloLyrics
+        \verseOneSoloLyrics
+        \preChorusSoloLyrics
+        \chorusSoloLyrics
+        \verseTwoSoloLyrics
+        \preChorusSoloLyrics
+        \chorusSoloLyrics
+        \bridgeSoloLyrics
+        \doubleChorusSoloLyrics
+        \outroSoloLyrics
     }
     \new Staff \with {
         instrumentName = #"Comp"
@@ -439,14 +781,30 @@ bridgeBass = {
       \set Staff.midiInstrument = #"acoustic grand"
       \set Staff.midiMaximumVolume = 0.4
       \clef "treble_8"
-      %\introComp
-      %\verseOneComp
-      \preChorusComp
-      \chorusComp
-      %\verseTwoComp
-      %\preChorusComp
-      %\chorusComp
-      %\bridgeComp
+      \new Voice = "Comp" {
+        \introComp
+        \verseOneComp
+        \preChorusComp
+        \chorusComp
+        \verseTwoComp
+        \preChorusComp
+        \chorusComp
+        \bridgeComp
+        \doubleChorusComp
+        \outroComp
+      }
+    }
+    \new Lyrics \lyricsto "Comp" {
+        \introCompLyrics
+        \verseOneCompLyrics
+        \preChorusCompLyrics
+        \chorusCompLyrics
+        \verseTwoCompLyrics
+        \preChorusCompLyrics
+        \chorusCompLyrics
+        \bridgeCompLyrics
+        \doubleChorusCompLyrics
+        \outroCompLyrics
     }
     \new Staff \with {
         instrumentName = #"RAT"
@@ -455,14 +813,30 @@ bridgeBass = {
       \set Staff.midiInstrument = #"acoustic grand"
       \set Staff.midiMaximumVolume = 0.0
       \clef "treble_8"
-      %\introRat
-      %\verseOneRat
-      \preChorusRat
-      \chorusRat
-      %\verseTwoRat
-      %\preChorusRat
-      %\chorusRat
-      %\bridgeRat
+      \new Voice = "RAT" {
+        \introRat
+        \verseOneRat
+        \preChorusRat
+        \chorusRat
+        \verseTwoRat
+        \preChorusRat
+        \chorusRat
+        \bridgeRat
+        \doubleChorusRat
+        \outroRat
+      }
+    }
+    \new Lyrics \lyricsto "RAT" {
+        \introRatLyrics
+        \verseOneRatLyrics
+        \preChorusRatLyrics
+        \chorusRatLyrics
+        \verseTwoRatLyrics
+        \preChorusRatLyrics
+        \chorusRatLyrics
+        \bridgeRatLyrics
+        \doubleChorusRatLyrics
+        \outroRatLyrics
     }
     \new Staff \with {
         instrumentName = #"Tenor"
@@ -471,14 +845,30 @@ bridgeBass = {
       \set Staff.midiInstrument = #"electric guitar (clean)"
       \set Staff.midiMaximumVolume = 0.9
       \clef "treble_8"
-      %\introTenor
-      %\verseOneTenor
-      \preChorusTenor
-      \chorusTenor
-      %\verseTwoTenor
-      %\preChorusTenor
-      %\chorusTenor
-      %\bridgeTenor
+      \new Voice = "Tenor" {
+        \introTenor
+        \verseOneTenor
+        \preChorusTenor
+        \chorusTenor
+        \verseTwoTenor
+        \preChorusTenor
+        \chorusTenor
+        \bridgeTenor
+        \doubleChorusTenor
+        \outroTenor
+      }
+    }
+    \new Lyrics \lyricsto "Tenor" {
+        \introTenorLyrics
+        \verseOneTenorLyrics
+        \preChorusTenorLyrics
+        \chorusTenorLyrics
+        \verseTwoTenorLyrics
+        \preChorusTenorLyrics
+        \chorusTenorLyrics
+        \bridgeTenorLyrics
+        \doubleChorusTenorLyrics
+        \outroTenorLyrics
     }
     \new Staff \with {
         instrumentName = #"Lead"
@@ -487,14 +877,30 @@ bridgeBass = {
       \set Staff.midiInstrument = #"electric guitar (clean)"
       \set Staff.midiMaximumVolume = 0.9
       \clef "treble_8"
-      %\introLead
-      %\verseOneLead
-      \preChorusLead
-      \chorusLead
-      %\verseTwoLead
-      %\preChorusLead
-      %\chorusLead
-      %\bridgeLead
+      \new Voice = "Lead" {
+        \introLead
+        \verseOneLead
+        \preChorusLead
+        \chorusLead
+        \verseTwoLead
+        \preChorusLead
+        \chorusLead
+        \bridgeLead
+        \doubleChorusLead
+        \outroLead
+      }
+    }
+    \new Lyrics \lyricsto "Lead" {
+        \introLeadLyrics
+        \verseOneLeadLyrics
+        \preChorusLeadLyrics
+        \chorusLeadLyrics
+        \verseTwoLeadLyrics
+        \preChorusLeadLyrics
+        \chorusLeadLyrics
+        \bridgeLeadLyrics
+        \doubleChorusLeadLyrics
+        \outroLeadLyrics
     }
     \new Staff \with {
         instrumentName = #"Bari"
@@ -503,14 +909,30 @@ bridgeBass = {
       \set Staff.midiInstrument = #"electric guitar (clean)"
       \set Staff.midiMaximumVolume = 0.9
       \clef "bass"
-      %\introBari
-      %\verseOneBari
-      \preChorusBari
-      \chorusBari
-      %\verseTwoBari
-      %\preChorusBari
-      %\chorusBari
-      %\bridgeBari
+      \new Voice = "Bari" {
+        \introBari
+        \verseOneBari
+        \preChorusBari
+        \chorusBari
+        \verseTwoBari
+        \preChorusBari
+        \chorusBari
+        \bridgeBari
+        \doubleChorusBari
+        \outroBari
+      }
+    }
+    \new Lyrics \lyricsto "Bari" {
+        \introBariLyrics
+        \verseOneBariLyrics
+        \preChorusBariLyrics
+        \chorusBariLyrics
+        \verseTwoBariLyrics
+        \preChorusBariLyrics
+        \chorusBariLyrics
+        \bridgeBariLyrics
+        \doubleChorusBariLyrics
+        \outroBariLyrics
     }
     \new Staff \with {
         instrumentName = #"Bass"
@@ -519,14 +941,30 @@ bridgeBass = {
       \set Staff.midiInstrument = #"acoustic bass"
       \set Staff.midiMaximumVolume = 0.9
       \clef "bass"
-      %\introBass
-      %\verseOneBass
-      \preChorusBass
-      \chorusBass
-      %\verseTwoBass
-      %\preChorusBass
-      %\chorusBass
-      %\bridgeBass
+      \new Voice = "Bass" {
+        \introBass
+        \verseOneBass
+        \preChorusBass
+        \chorusBass
+        \verseTwoBass
+        \preChorusBass
+        \chorusBass
+        \bridgeBass
+        \doubleChorusBass
+        \outroBass
+      }
+    }
+    \new Lyrics \lyricsto "Bass" {
+        \introBassLyrics
+        \verseOneBassLyrics
+        \preChorusBassLyrics
+        \chorusBassLyrics
+        \verseTwoBassLyrics
+        \preChorusBassLyrics
+        \chorusBassLyrics
+        \bridgeBassLyrics
+        \doubleChorusBassLyrics
+        \outroBassLyrics
     }
   >>
   \layout {
