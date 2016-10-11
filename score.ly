@@ -51,17 +51,17 @@ introTenorLyrics = \lyricmode {
 }
 
 introLead = \relative c {
-  f16 f8 f16 f8 f16 f~ f f f8~ f16 g8. |
-  bes16 bes8 bes16 bes8 bes16 bes~ bes bes bes8~ bes16 c8. |
-  d16 d8 d16 d8 d16 d~ d d d8~ d16 c8. |
-  bes16 bes8 bes16 bes8 bes16 bes~ bes bes bes8~ bes16 bes bes bes |
+  f16 f8 f16 f8 f16 f~ f f f8 f16 g8. |
+  bes16 bes8 bes16 bes8 bes16 bes~ bes bes bes8 bes16 c8. |
+  d16 d8 d16 d8 d16 d~ d d d8 d16 c8. |
+  bes16 bes8 bes16 bes8 bes16 bes~ bes bes bes8 bes16 bes bes bes |
 }
 
 introLeadLyrics = \lyricmode {
-  de den de den de den den den
-  de den de den de den den den
-  de den de den de den den den
-  de den de den de den den de de de
+  be den de den be den de den be den
+  be den de den be den de den be den
+  be den de den be den de den be den
+  be den de den be den de den be de de de
 }
 
 introBari = \relative c {
