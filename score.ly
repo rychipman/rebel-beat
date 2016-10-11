@@ -1,6 +1,11 @@
 \version "2.18.2"
 
-#(set-global-staff-size 17)
+#(set-global-staff-size 13)
+
+\header {
+  title = "Rebel Beat"
+  composer = "Goo Goo Dolls arr. Chippy"
+}
 
 % TODO: get something down for everything
 % TODO: add lyrics
