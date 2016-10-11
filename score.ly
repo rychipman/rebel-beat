@@ -345,7 +345,7 @@ preChorusBassLyrics = \lyricmode {
   dm dm de -- dm deh
   dm dm de -- dm deh
   dm dm dm dm
-  doh doh dmmm
+  doh doh dmmm \skip 1
 }
 
 chorusSolo = \relative c' {
@@ -394,7 +394,7 @@ chorusRat = \relative c'' {
   r16 a c r  a c r a  d c d r  r a c r |
   a16 bes a bes  r a bes r  f a r bes  a r bes a |
   r16 a c r  a c r a  d c d r  r a c r |
-  r1 |
+  a16 bes a bes  r a bes r  f a r bes  a r bes a |
   r16 a c r  a c r a  d c d r  r a c r |
   a16 bes a bes  r a bes r  f a r bes  a r bes a |
   r1 |
@@ -402,55 +402,102 @@ chorusRat = \relative c'' {
 }
 
 chorusRatLyrics = \lyricmode {
-  
+  be det be det be de de det be det
+  be de de det be det de det be det be det
+  be det be det be de de det be det
+  be de de det be det de det be det be det
+  be det be det be de de det be det
+  be de de det be det de det be det be det
 }
 
 chorusTenor = \relative c' {
-  f2  f16 f8 f16~  f c8 f16 |
-  d16 f d f~  f4  bes8. a16~  a8 g|
-  f2  g8. a16  r8 bes~ |
+  f4  f  f16 f8 f16~  f c8 f16 |
+  d16 f d f~  f4  f  e |
+  f2  g8. a16~  a8 bes~ |
   bes8 a  g f  g a  g f |
-  r1 |
-  r1 |
-   |
-  r1 |
+  f4  f  f16 f8 f16~  f c8 f16 |
+  d16 f d f~  f4  f  e |
+  f2  f4  f |
+  g4  f16 f r8  g4  g |
 }
 
 chorusTenorLyrics = \lyricmode {
-  
+  hey you ba dap bap bah da
+  ba da da da whoa -- oh
+  no -- where to go
+  oo -- oo -- oo -- oh -- oo -- oh -- ohh
+  sun down ba dap bap bah da
+  ba da da da whoa -- oh
+  take it from
+  me ba dat bah bah
 }
 
 chorusLead = \relative c' {
-  f4  f8 r8  c16 c c c      r c8 f16 |
-  % hey you  ba da da dahp    can ya
-  d8 d         r d  f4  e4 |
-  % hear that  whoa-o-o-
-  f8 f  r8. f16  c c c c  r c a8 |
-  % ba dahp
-  bes4 d d c8 c |
-  r1 |
-  r1 |
+  f4  f8 r8  c16 c c c  r c8 c16 |
+  d4  d16 c d r  d8 c  c4 |
+  f4  f8 r8  c16 c c c  r c8 c16 |
+  d4  d16 c d r  d8 c  c4 |
+  f4  f8 r8  c16 c c c  r c8 c16 |
+  d4  d16 c d r  d8 c  c4 |
   a2  a8. c16~  c8 d~ |
-  d2  r |
+  d4  d16 c d r  d d r c  c r c8 |
 }
 
 chorusLeadLyrics = \lyricmode {
-  
+  hey you ba da da da dap bah
+  bah ba da dap whoa -- oh ohh
+  bah dahp ba da da da dap bah
+  bah ba da dap whoa -- oh ohh
+
+  sun down ba da da da dap bah
+  bah ba da dap whoa -- oh ohh
+  take it from me
+  ba da dap ba dap ba dap bap
 }
 
 chorusBari = \relative c {
-  c'4 c8 r8 r2 |
-  r1 |
-  r1 |
-  r1 |
-  r1 |
-  r1 |
-  f,8. a16~  a8 f8  f8. a16~  a8 bes~ | % words
-  bes2  r |
+  c'4 c8 r  a8. a16~  a8 c |
+  f,4 f8 r  g8. g16~  g8 a |
+  c4 c8 r  a8. a16~  a8 c |
+  f,4 f8 r  g8. g16~  g8 a |
+  c4 c8 r  a8. a16~  a8 c |
+  f,4 f8 r  g8. g16~  g8 a |
+  f8. a16~  a8 f8  f8. a16~  a8 bes~ | % words
+  bes2  a16 a a a  r g8. |
 }
 
 chorusBariLyrics = \lyricmode {
-  
+  hey you oh doh weh
+  ah dahp oh doh weh
+  bah dahp oh doh weh
+  ah dahp oh doh weh
+  sun down oh doh weh
+  ah dahp oh doh weh
+  take ev -- 'ry thing from me
+  ba da da dahp bah
+}
+
+chorusBass = \relative c, {
+  f'4  f8 r  r16 f, f c'~  c a a a |
+  bes4  bes8 r  r16 bes bes c~  c c8 c16 |
+  f,4  f8 r  r16 f c' f,  c'8 c16 a |
+  bes4  bes8 r16 bes  bes8 r16 bes  bes c c,8 |
+
+  f4  f8 r  r16 f f c'~  c a a a |
+  bes4  bes8 r  r16 bes bes c~  c c8 c16 |
+  d8 d  a d  c c g c |
+  bes8. bes16~  bes bes bes bes  bes bes8 c16~  c c c c |
+}
+
+chorusBassLyrics = \lyricmode {
+  hey you beh de dm be de de
+  dm dm be de dm bet de
+  dm dm beh deh de dm de de
+  dm dm be dm be de -- dn dm
+  bah dahp beh de dm be de de
+  dm dm be de dm bet de
+  dm dm dm dm dm dm dm dm
+  dm dm be de deh deh -- dm dm be de deh
 }
 
 verseTwoSolo = \relative c' {
@@ -547,22 +594,6 @@ verseTwoBass = {
 }
 
 verseTwoBassLyrics = \lyricmode {
-  
-}
-
-chorusBass = \relative c, {
-  f'4  f8 r  r16 f, f c'~  c a a a |
-  bes4  bes8 r  r16 bes bes c~  c c8 c16 |
-  f,4  f8 r  r16 f c' f,  c'8 c16 a |
-  bes4  bes8 r16 bes  bes8 r16 bes  bes c c,8 |
-
-  f4  f8 r  r16 f f c'~  c a a a |
-  bes4  bes8 r  r16 bes bes c~  c c8 c16 |
-  d8 d  a d  c c g c |
-  bes8. bes16~  bes bes bes bes  bes bes8 c16~  c c c c |
-}
-
-chorusBassLyrics = \lyricmode {
   
 }
 
