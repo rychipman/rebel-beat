@@ -108,6 +108,11 @@ verseOneSoloLyrics = \lyricmode {
  we keep head -- in' in the same di -- rec -- tion
  you've be -- come my own re -- flec -- tion
  is that your soul that you're try'n to pro --tect
+ I al -- ways hoped that we would in -- ter -- sect yeah
+ you need time to cope and time to heal
+ time to cry if it's what you feel oh
+ life can hurt when it gets too real I can
+ hold you up when it's hard to deal a -- li --
 }
 
 verseOneComp = \relative c { % sing in cluster without mic for now
