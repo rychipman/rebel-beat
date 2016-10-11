@@ -126,7 +126,7 @@ verseOneComp = \relative c { % sing in cluster without mic for now
   % I al-ways hoped we would in-ter-sect
   r8 f16 f f8 f16 f~ f f8 f16~ f f f8 |
   % you need time to cope and time to heal
-  r8 f16 f f8 f16 f f f8 f16~ f( f) f8 |
+  r8 f16 f f8 f16 f f f8 f16~ f8 r8 |
   % time to cry if it's what you feel oh
   f16 f8 f16~ f r f f f f8 f16~ f8 f16 f |
   % life can hurt when it gets too real I can
