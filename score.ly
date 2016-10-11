@@ -379,12 +379,15 @@ chorusSoloLyrics = \lyricmode {
 }
 
 chorusComp = { % TODO: add this
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  r1 | r1 |
+  r1 | r1 |
+  r1 | r1 |
+  f4 e8 d d8. c16~ c8 d~ |
+  d4 r r2 |
 }
 
 chorusCompLyrics = \lyricmode {
-  
+  take ev -- 'ry thing from me
 }
 
 chorusRat = \relative c'' {
