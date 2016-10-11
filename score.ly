@@ -812,7 +812,7 @@ outroBassLyrics = \lyricmode {
       \set Staff.midiMaximumVolume = 0.7
       \clef "treble_8"
       \new Voice = "Neil" {
-        %\introSolo \bar "||"
+        \introSolo \bar "||"
         \verseOneSolo \bar "||"
         \preChorusSolo \bar "||"
         \chorusSolo \bar "||"
@@ -825,7 +825,7 @@ outroBassLyrics = \lyricmode {
       }
     }
     \new Lyrics \lyricsto "Neil" {
-        %\introSoloLyrics
+        \introSoloLyrics
         \verseOneSoloLyrics
         \preChorusSoloLyrics
         \chorusSoloLyrics
@@ -844,7 +844,7 @@ outroBassLyrics = \lyricmode {
       \set Staff.midiMaximumVolume = 0.4
       \clef "treble_8"
       \new Voice = "Comp" {
-        %\introComp
+        \introComp
         \verseOneComp
         \preChorusComp
         \chorusComp
@@ -857,7 +857,7 @@ outroBassLyrics = \lyricmode {
       }
     }
     \new Lyrics \lyricsto "Comp" {
-        %\introCompLyrics
+        \introCompLyrics
         \verseOneCompLyrics
         \preChorusCompLyrics
         \chorusCompLyrics
@@ -873,10 +873,11 @@ outroBassLyrics = \lyricmode {
         shortInstrumentName = #"R"
     }{
       \set Staff.midiInstrument = #"acoustic grand"
-      \set Staff.midiMaximumVolume = 0.9
+      \set Staff.midiMaximumVolume = 0.5
+      %\set Staff.midiMaximumVolume = 0.0
       \clef "treble_8"
       \new Voice = "RAT" {
-        %\introRat
+        \introRat
         \verseOneRat
         \preChorusRat
         \chorusRat
@@ -889,7 +890,7 @@ outroBassLyrics = \lyricmode {
       }
     }
     \new Lyrics \lyricsto "RAT" {
-        %\introRatLyrics
+        \introRatLyrics
         \verseOneRatLyrics
         \preChorusRatLyrics
         \chorusRatLyrics
@@ -908,7 +909,7 @@ outroBassLyrics = \lyricmode {
       \set Staff.midiMaximumVolume = 0.9
       \clef "treble_8"
       \new Voice = "Tenor" {
-        %\introTenor
+        \introTenor
         \verseOneTenor
         \preChorusTenor
         \chorusTenor
@@ -921,7 +922,7 @@ outroBassLyrics = \lyricmode {
       }
     }
     \new Lyrics \lyricsto "Tenor" {
-        %\introTenorLyrics
+        \introTenorLyrics
         \verseOneTenorLyrics
         \preChorusTenorLyrics
         \chorusTenorLyrics
@@ -940,7 +941,7 @@ outroBassLyrics = \lyricmode {
       \set Staff.midiMaximumVolume = 0.8
       \clef "treble_8"
       \new Voice = "Lead" {
-        %\introLead
+        \introLead
         \verseOneLead
         \preChorusLead
         \chorusLead
@@ -953,7 +954,7 @@ outroBassLyrics = \lyricmode {
       }
     }
     \new Lyrics \lyricsto "Lead" {
-        %\introLeadLyrics
+        \introLeadLyrics
         \verseOneLeadLyrics
         \preChorusLeadLyrics
         \chorusLeadLyrics
@@ -972,7 +973,7 @@ outroBassLyrics = \lyricmode {
       \set Staff.midiMaximumVolume = 0.9
       \clef "bass"
       \new Voice = "Bari" {
-        %\introBari
+        \introBari
         \verseOneBari
         \preChorusBari
         \chorusBari
@@ -985,7 +986,7 @@ outroBassLyrics = \lyricmode {
       }
     }
     \new Lyrics \lyricsto "Bari" {
-        %\introBariLyrics
+        \introBariLyrics
         \verseOneBariLyrics
         \preChorusBariLyrics
         \chorusBariLyrics
@@ -1004,7 +1005,7 @@ outroBassLyrics = \lyricmode {
       \set Staff.midiMaximumVolume = 0.9
       \clef "bass"
       \new Voice = "Bass" {
-        %\introBass
+        \introBass
         \verseOneBass
         \preChorusBass
         \chorusBass
@@ -1017,7 +1018,7 @@ outroBassLyrics = \lyricmode {
       }
     }
     \new Lyrics \lyricsto "Bass" {
-        %\introBassLyrics
+        \introBassLyrics
         \verseOneBassLyrics
         \preChorusBassLyrics
         \chorusBassLyrics
