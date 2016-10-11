@@ -130,7 +130,14 @@ verseOneComp = \relative c { % sing in cluster without mic for now
 }
 
 verseOneCompLyrics = \lyricmode {
-  
+ we keep head -- in' in the same di -- rec -- tion
+ you've be -- come my own re -- flec -- tion
+ is that your soul that you're try'n to pro --tect
+ I al -- ways hoped we would in -- ter -- sect
+ you need time to cope and time to heal
+ time to cry if it's what you feel
+ life can hurt when it gets too real I can
+ hold you up when it's hard to deal a -- li --
 }
 
 verseOneRat = \relative c'' {
@@ -217,7 +224,11 @@ preChorusSolo = \relative c' {
 }
 
 preChorusSoloLyrics = \lyricmode {
-  
+  ive a -- li -- ive a -- live 
+  is all I want to feel to -- ni --
+  ight to -- ni -- i -- ight
+  I need to be where you are
+  I need to be where you are
 }
 
 preChorusComp = {
@@ -321,7 +332,14 @@ chorusSolo = \relative c' {
 }
 
 chorusSoloLyrics = \lyricmode {
-  
+  hey you look a -- round can you
+  hear that noise it's a re -- bel sound we got
+  no -- where else to go --
+  o and when the
+  sun goes down and we fill the streets you're gon -- na
+  dance 'til the mor -- nin' to the re -- bel's beat you can
+  take ev -- 'ry thing from me --
+  e 'cause this is all I need
 }
 
 chorusComp = { % TODO: add this
