@@ -1,6 +1,7 @@
 \version "2.18.2"
 
-% TODO: get everything into this file
+#(set-global-staff-size 17)
+
 % TODO: get something down for everything
 % TODO: add lyrics
 % TODO: add title, etc
