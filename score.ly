@@ -1,40 +1,37 @@
 \version "2.18.2"
 
-#(set-global-staff-size 13)
+#(set-global-staff-size 15)
 
 \header {
   title = "Rebel Beat"
   composer = "Goo Goo Dolls arr. Chippy"
+  copyright = "© 2016 MIT Logarhythms"
 }
 
-gSolo = {}
+gSolo = { \key f \major }
 gSoloLyrics = {}
-gComp = {}
+gComp = { \key f \major }
 gCompLyrics = {}
-gRat = {}
+gRat = { \key f \major }
 gRatLyrics = {}
-gTenor = {}
+gTenor = { \key f \major }
 gTenorLyrics = {}
-gLead = {}
+gLead = { \key f \major }
 gLeadLyrics = {}
-gBari = {}
+gBari = { \key f \major }
 gBariLyrics = {}
-gBass = {}
+gBass = { \key f \major }
 gBassLyrics = {}
 
 \include "sections/intro.ly"
 \include "sections/verseOne.ly"
-\include "sections/preChorusOne.ly"
+\include "sections/preChorus.ly"
 \include "sections/chorusOne.ly"
 \include "sections/verseTwo.ly"
-
-% TODO: make these number two again
-\include "sections/preChorusOne.ly"
-\include "sections/chorusOne.ly"
-
+\include "sections/preChorus.ly"
+\include "sections/chorusTwo.ly"
 \include "sections/bridge.ly"
-\include "sections/doubleChorus.ly"
-\include "sections/outro.ly"
+\include "sections/chorusThree.ly"
 
 \score {
   \new StaffGroup = partsStaff <<
@@ -44,21 +41,21 @@ gBassLyrics = {}
     }{
       \tempo 4 = 89
       \set Staff.midiInstrument = #"acoustic grand"
-      \set Staff.midiMaximumVolume = 0.7
+      \set Staff.midiMaximumVolume = 0.9
       \clef "treble_8"
       \new Voice = "Neil" { \gSolo }
     }
     \new Lyrics \lyricsto "Neil" { \gSoloLyrics }
-    \new Staff \with {
-        instrumentName = #"Comp"
-        shortInstrumentName = #"C"
-    }{
-      \set Staff.midiInstrument = #"acoustic grand"
-      \set Staff.midiMaximumVolume = 0.4
-      \clef "treble_8"
-      \new Voice = "Comp" { \gComp }
-    }
-    \new Lyrics \lyricsto "Comp" { \gCompLyrics }
+%    \new Staff \with {
+%        instrumentName = #"Comp"
+%        shortInstrumentName = #"C"
+%    }{
+%      \set Staff.midiInstrument = #"acoustic grand"
+%      \set Staff.midiMaximumVolume = 0.4
+%      \clef "treble_8"
+%      \new Voice = "Comp" { \gComp }
+%    }
+%    \new Lyrics \lyricsto "Comp" { \gCompLyrics }
     \new Staff \with {
         instrumentName = #"RAT"
         shortInstrumentName = #"R"
@@ -95,7 +92,7 @@ gBassLyrics = {}
         shortInstrumentName = #"B"
     }{
       \set Staff.midiInstrument = #"electric guitar (clean)"
-      \set Staff.midiMaximumVolume = 0.9
+      \set Staff.midiMaximumVolume = 0.8
       \clef "bass"
       \new Voice = "Bari" { \gBari }
     }
