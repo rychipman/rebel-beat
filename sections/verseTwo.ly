@@ -117,6 +117,10 @@ bariLyrics = \lyricmode {
   zhe -- de -- den de -- den de -- dn de -- dn de -- dn
   zhe -- de -- den de -- den de -- dn de -- dn de -- dn
   zhe -- de -- den de -- den de -- dn de -- dn de -- dn
+  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
+  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
+  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
+  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
 }
 
 bass = \relative c, {

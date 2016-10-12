@@ -104,7 +104,7 @@ lead = \relative c' {
   f4  f8 r8  c16 c c c  r c8 c16 |
   d4  d16 c d r  d8 c  c4 |
   a2  a8. c16~  c8 d~ |
-  d2. c4 |
+  d4 d2 c4 |
   a2  a8. c16~  c8 d~ |
   d4  d16 c d r  d d r c  c r c8 |
 }
@@ -117,7 +117,7 @@ leadLyrics = \lyricmode {
 
   sun down ba da da da dap bah
   bah ba da dap whoa -- oh ohh
-  take it from me
+  take it from me ohh
   ohh
   take it from me
   ba da dap ba dap ba dap bap

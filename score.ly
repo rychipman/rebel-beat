@@ -1,6 +1,6 @@
 \version "2.18.2"
 
-#(set-global-staff-size 15)
+#(set-global-staff-size 14)
 
 \header {
   title = "Rebel Beat"
@@ -41,28 +41,27 @@ gBassLyrics = {}
     }{
       \tempo 4 = 89
       \set Staff.midiInstrument = #"acoustic grand"
-      \set Staff.midiMaximumVolume = 0.9
+      \set Staff.midiMaximumVolume = 0.6
       \clef "treble_8"
       \new Voice = "Neil" { \gSolo }
     }
     \new Lyrics \lyricsto "Neil" { \gSoloLyrics }
-%    \new Staff \with {
-%        instrumentName = #"Comp"
-%        shortInstrumentName = #"C"
-%    }{
-%      \set Staff.midiInstrument = #"acoustic grand"
-%      \set Staff.midiMaximumVolume = 0.4
-%      \clef "treble_8"
-%      \new Voice = "Comp" { \gComp }
-%    }
-%    \new Lyrics \lyricsto "Comp" { \gCompLyrics }
+    \new Staff \with {
+        instrumentName = #"Comp"
+        shortInstrumentName = #"C"
+    }{
+      \set Staff.midiInstrument = #"acoustic grand"
+      \set Staff.midiMaximumVolume = 0.4
+      \clef "treble_8"
+      \new Voice = "Comp" { \gComp }
+    }
+    \new Lyrics \lyricsto "Comp" { \gCompLyrics }
     \new Staff \with {
         instrumentName = #"RAT"
         shortInstrumentName = #"R"
     }{
       \set Staff.midiInstrument = #"acoustic grand"
-      \set Staff.midiMaximumVolume = 0.5
-      %\set Staff.midiMaximumVolume = 0.0
+      \set Staff.midiMaximumVolume = 0.6
       \clef "treble_8"
       \new Voice = "RAT" { \gRat }
     }
@@ -82,7 +81,7 @@ gBassLyrics = {}
         shortInstrumentName = #"L"
     }{
       \set Staff.midiInstrument = #"electric guitar (clean)"
-      \set Staff.midiMaximumVolume = 0.8
+      \set Staff.midiMaximumVolume = 0.9
       \clef "treble_8"
       \new Voice = "Lead" { \gLead }
     }
@@ -92,7 +91,7 @@ gBassLyrics = {}
         shortInstrumentName = #"B"
     }{
       \set Staff.midiInstrument = #"electric guitar (clean)"
-      \set Staff.midiMaximumVolume = 0.8
+      \set Staff.midiMaximumVolume = 0.9
       \clef "bass"
       \new Voice = "Bari" { \gBari }
     }
